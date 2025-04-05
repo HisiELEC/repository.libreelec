@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="pvr.hts" version="22.6.1.1" name="Tvheadend HTSP Client" provider-name="Adam Sutton, Sam Stenvall, Lars Op den Kamp, Kai Sommerfeld">
+<addon id="pvr.hts" version="22.6.2.1" name="Tvheadend HTSP Client" provider-name="Adam Sutton, Sam Stenvall, Lars Op den Kamp, Kai Sommerfeld">
   <requires>
     <import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
     <import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
@@ -8,7 +8,7 @@
     <import addon="kodi.binary.instance.inputstream" minversion="3.3.0" version="3.3.0"/>
     <import addon="kodi.binary.instance.pvr" minversion="9.2.0" version="9.2.0"/>
   </requires>
-  <extension point="kodi.pvrclient" library_linux="pvr.hts.so.22.6.1"/>
+  <extension point="kodi.pvrclient" library_linux="pvr.hts.so.22.6.2"/>
   <extension point="xbmc.addon.metadata">
     <platform/>
     <license>GPL-2.0-or-later</license>
@@ -18,13 +18,13 @@
       <icon>icon.png</icon>
     </assets>
     <summary lang="af_ZA">Kodi se voorprogram vir Tvheadend</summary>
-    <summary lang="bg_BG">Клиент за „Tvheadend“</summary>
+    <summary lang="bg_BG">&#x41A;&#x43B;&#x438;&#x435;&#x43D;&#x442; &#x437;&#x430; &#x201E;Tvheadend&#x201C;</summary>
     <summary lang="ca_ES">Frontal de Kodi per a Tvheadend</summary>
-    <summary lang="cs_CZ">Rozhraní Kodi pro Tvheadend</summary>
+    <summary lang="cs_CZ">Rozhran&#xED; Kodi pro Tvheadend</summary>
     <summary lang="cy_GB">Blaen Kodi ar gyfer Tvheadend</summary>
     <summary lang="da_DK">Kodis brugerflade til Tvheadend</summary>
-    <summary lang="de_DE">Kodi-PVR-Client für Tvheadend</summary>
-    <summary lang="el_GR">Το frontend του Kodi για το Tvheadend</summary>
+    <summary lang="de_DE">Kodi-PVR-Client f&#xFC;r Tvheadend</summary>
+    <summary lang="el_GR">&#x3A4;&#x3BF; frontend &#x3C4;&#x3BF;&#x3C5; Kodi &#x3B3;&#x3B9;&#x3B1; &#x3C4;&#x3BF; Tvheadend</summary>
     <summary lang="en_AU">Kodi's frontend for Tvheadend</summary>
     <summary lang="en_GB">Kodi's frontend for Tvheadend</summary>
     <summary lang="en_NZ">Kodi's frontend for Tvheadend</summary>
@@ -33,97 +33,97 @@
     <summary lang="es_ES">Interfaz Kodi para Tvheadend</summary>
     <summary lang="es_MX">El frontend de Kodi para Tvheadend</summary>
     <summary lang="et_EE">Kodi liides Tvheadend'ile</summary>
-    <summary lang="fi_FI">Tvheadend-käyttöliittymä Kodille</summary>
+    <summary lang="fi_FI">Tvheadend-k&#xE4;ytt&#xF6;liittym&#xE4; Kodille</summary>
     <summary lang="fr_CA">Frontale Kodi pour Tvheadend</summary>
     <summary lang="fr_FR">Interface logicielle pour Tvheadend</summary>
     <summary lang="gl_ES">Interface do Kodi para Tvheadend</summary>
-    <summary lang="he_IL">לקוח טלוויזיה חיה עבור Tvheadend</summary>
+    <summary lang="he_IL">&#x5DC;&#x5E7;&#x5D5;&#x5D7; &#x5D8;&#x5DC;&#x5D5;&#x5D5;&#x5D9;&#x5D6;&#x5D9;&#x5D4; &#x5D7;&#x5D9;&#x5D4; &#x5E2;&#x5D1;&#x5D5;&#x5E8; Tvheadend</summary>
     <summary lang="hr_HR">Kodi pozadinski softver za Tvheadend</summary>
-    <summary lang="hu_HU">Kodi előtét a TVHeadend-hez</summary>
+    <summary lang="hu_HU">Kodi el&#x151;t&#xE9;t a TVHeadend-hez</summary>
     <summary lang="id_ID">Frontend Kodi untuk Tvheadend</summary>
     <summary lang="is_IS">Kodi framendi fyrir Tvheadend</summary>
     <summary lang="it_IT">Frontend Kodi per Tvheadend</summary>
-    <summary lang="ja_JP">TVheadend 用 Kodi フロントエンド</summary>
-    <summary lang="ko_KR">Tvheadend 을 위한 Kodi 프론트엔드</summary>
-    <summary lang="lt_LT">Kodi naudotojo sąsaja skirta Tvheadend</summary>
-    <summary lang="lv_LV">Kodi galasistēma Tvheadend</summary>
-    <summary lang="mn_MN">Tvheadend зориулагдсан Kodi-ийн нүүр</summary>
+    <summary lang="ja_JP">TVheadend &#x7528; Kodi &#x30D5;&#x30ED;&#x30F3;&#x30C8;&#x30A8;&#x30F3;&#x30C9;</summary>
+    <summary lang="ko_KR">Tvheadend &#xC744; &#xC704;&#xD55C; Kodi &#xD504;&#xB860;&#xD2B8;&#xC5D4;&#xB4DC;</summary>
+    <summary lang="lt_LT">Kodi naudotojo s&#x105;saja skirta Tvheadend</summary>
+    <summary lang="lv_LV">Kodi galasist&#x113;ma Tvheadend</summary>
+    <summary lang="mn_MN">Tvheadend &#x437;&#x43E;&#x440;&#x438;&#x443;&#x43B;&#x430;&#x433;&#x434;&#x441;&#x430;&#x43D; Kodi-&#x438;&#x439;&#x43D; &#x43D;&#x4AF;&#x4AF;&#x440;</summary>
     <summary lang="ms_MY">Bahagian hadapan Kodi untuk</summary>
-    <summary lang="mt_MT">Faċċata ta' Kodi għat- TVheadend</summary>
+    <summary lang="mt_MT">Fa&#x10B;&#x10B;ata ta' Kodi g&#x127;at- TVheadend</summary>
     <summary lang="nb_NO">Kodis grenseflate for Tvheadend</summary>
     <summary lang="nl_NL">Kodi's frontend voor Tvheadend</summary>
     <summary lang="pl_PL">Klient telewizji dla Tvheadend</summary>
     <summary lang="pt_BR">Frontend Kodi para Tvheadend</summary>
     <summary lang="pt_PT">Interface Kodi para Tvheadend</summary>
-    <summary lang="ro_RO">Interfața Kodi pentru Tvheadend</summary>
-    <summary lang="ru_RU">Интерфейс Kodi для Tvheadend</summary>
+    <summary lang="ro_RO">Interfa&#x21B;a Kodi pentru Tvheadend</summary>
+    <summary lang="ru_RU">&#x418;&#x43D;&#x442;&#x435;&#x440;&#x444;&#x435;&#x439;&#x441; Kodi &#x434;&#x43B;&#x44F; Tvheadend</summary>
     <summary lang="sk_SK">Kodi rozhranie pre Tvheadend</summary>
     <summary lang="sl_SI">Kodijev vmesnik za Tvheadend</summary>
-    <summary lang="sq_AL">Frontend i Kodi'së për Tvheadend</summary>
-    <summary lang="sr_RS">Kodi-јев интерфејс за Tvheadend</summary>
+    <summary lang="sq_AL">Frontend i Kodi's&#xEB; p&#xEB;r Tvheadend</summary>
+    <summary lang="sr_RS">Kodi-&#x458;&#x435;&#x432; &#x438;&#x43D;&#x442;&#x435;&#x440;&#x444;&#x435;&#x458;&#x441; &#x437;&#x430; Tvheadend</summary>
     <summary lang="sr_RS@latin">Kodijev interfejs za Tvheadend</summary>
-    <summary lang="sv_SE">Kodi's frontend för Tvheadend</summary>
-    <summary lang="szl">Frontend do Tvheadend ôd Kodi</summary>
-    <summary lang="te_IN">Tvheadend కోసం కోడి యొక్క ఫ్రంటెండ్</summary>
-    <summary lang="tg_TJ">Интерфейси Kodi барои Tvheadend</summary>
-    <summary lang="tr_TR">Tvheadend için Kodi ön ucu</summary>
-    <summary lang="uk_UA">Інтерфейс Kodi для Tvheadend</summary>
-    <summary lang="vi_VN">Giao tiếp Kodi cho Tvheadend</summary>
-    <summary lang="zh_CN">Kodi 的 Tvheadend 前端</summary>
-    <summary lang="zh_TW">Kodi的Tvheadend前端介面</summary>
+    <summary lang="sv_SE">Kodi's frontend f&#xF6;r Tvheadend</summary>
+    <summary lang="szl">Frontend do Tvheadend &#xF4;d Kodi</summary>
+    <summary lang="te_IN">Tvheadend &#xC15;&#xC4B;&#xC38;&#xC02; &#xC15;&#xC4B;&#xC21;&#xC3F; &#xC2F;&#xC4A;&#xC15;&#xC4D;&#xC15; &#xC2B;&#xC4D;&#xC30;&#xC02;&#xC1F;&#xC46;&#xC02;&#xC21;&#xC4D;</summary>
+    <summary lang="tg_TJ">&#x418;&#x43D;&#x442;&#x435;&#x440;&#x444;&#x435;&#x439;&#x441;&#x438; Kodi &#x431;&#x430;&#x440;&#x43E;&#x438; Tvheadend</summary>
+    <summary lang="tr_TR">Tvheadend i&#xE7;in Kodi &#xF6;n ucu</summary>
+    <summary lang="uk_UA">&#x406;&#x43D;&#x442;&#x435;&#x440;&#x444;&#x435;&#x439;&#x441; Kodi &#x434;&#x43B;&#x44F; Tvheadend</summary>
+    <summary lang="vi_VN">Giao ti&#x1EBF;p Kodi cho Tvheadend</summary>
+    <summary lang="zh_CN">Kodi &#x7684; Tvheadend &#x524D;&#x7AEF;</summary>
+    <summary lang="zh_TW">Kodi&#x7684;Tvheadend&#x524D;&#x7AEF;&#x4ECB;&#x9762;</summary>
     <description lang="af_ZA">Tvheadend voorprogram; ondersteun stroom van Lewendige TV &amp; Opnames, EPG, Tydhouers</description>
-    <description lang="bg_BG">Клиент за „Tvheadend“. Поддържа телевизия на живо, записване, електронен програмен справочник и броячи.</description>
-    <description lang="ca_ES">Frontal de Tvheadend; compatible amb la transmissió de TV en directe i enregistraments, guia electrònica de programació (EPG), temporitzadors</description>
-    <description lang="cs_CZ">Rozhraní Tvheadend; podporuje streamování živého vysílání a nahrávání, televizní program, časovače</description>
+    <description lang="bg_BG">&#x41A;&#x43B;&#x438;&#x435;&#x43D;&#x442; &#x437;&#x430; &#x201E;Tvheadend&#x201C;. &#x41F;&#x43E;&#x434;&#x434;&#x44A;&#x440;&#x436;&#x430; &#x442;&#x435;&#x43B;&#x435;&#x432;&#x438;&#x437;&#x438;&#x44F; &#x43D;&#x430; &#x436;&#x438;&#x432;&#x43E;, &#x437;&#x430;&#x43F;&#x438;&#x441;&#x432;&#x430;&#x43D;&#x435;, &#x435;&#x43B;&#x435;&#x43A;&#x442;&#x440;&#x43E;&#x43D;&#x435;&#x43D; &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x435;&#x43D; &#x441;&#x43F;&#x440;&#x430;&#x432;&#x43E;&#x447;&#x43D;&#x438;&#x43A; &#x438; &#x431;&#x440;&#x43E;&#x44F;&#x447;&#x438;.</description>
+    <description lang="ca_ES">Frontal de Tvheadend; compatible amb la transmissi&#xF3; de TV en directe i enregistraments, guia electr&#xF2;nica de programaci&#xF3; (EPG), temporitzadors</description>
+    <description lang="cs_CZ">Rozhran&#xED; Tvheadend; podporuje streamov&#xE1;n&#xED; &#x17E;iv&#xE9;ho vys&#xED;l&#xE1;n&#xED; a nahr&#xE1;v&#xE1;n&#xED;, televizn&#xED; program, &#x10D;asova&#x10D;e</description>
     <description lang="cy_GB">Blaen Tvheadend: cefnogi ffrydio Teledu Byw a Recordio, Amserlenni, Amseryddion</description>
-    <description lang="da_DK">Tvheadend-brugerflade; understøtter streaming af direkte tv og optagelser, EPG og timeroptagelser</description>
-    <description lang="de_DE">PVR-Client für Tvheadend. Unterstützt TV, Aufnahmen, Programm-Guide (EPG) und Timer</description>
-    <description lang="el_GR">Frontend για το Tvheadend. Υποστηρίζει ροές Live TV &amp; Εγγραφές, EPG, Χρονοδιακόπτες</description>
+    <description lang="da_DK">Tvheadend-brugerflade; underst&#xF8;tter streaming af direkte tv og optagelser, EPG og timeroptagelser</description>
+    <description lang="de_DE">PVR-Client f&#xFC;r Tvheadend. Unterst&#xFC;tzt TV, Aufnahmen, Programm-Guide (EPG) und Timer</description>
+    <description lang="el_GR">Frontend &#x3B3;&#x3B9;&#x3B1; &#x3C4;&#x3BF; Tvheadend. &#x3A5;&#x3C0;&#x3BF;&#x3C3;&#x3C4;&#x3B7;&#x3C1;&#x3AF;&#x3B6;&#x3B5;&#x3B9; &#x3C1;&#x3BF;&#x3AD;&#x3C2; Live TV &amp; &#x395;&#x3B3;&#x3B3;&#x3C1;&#x3B1;&#x3C6;&#x3AD;&#x3C2;, EPG, &#x3A7;&#x3C1;&#x3BF;&#x3BD;&#x3BF;&#x3B4;&#x3B9;&#x3B1;&#x3BA;&#x3CC;&#x3C0;&#x3C4;&#x3B5;&#x3C2;</description>
     <description lang="en_AU">Tvheadend frontend; supporting streaming of Live TV &amp; Recordings, EPG, Timers</description>
     <description lang="en_GB">Tvheadend frontend; supporting streaming of Live TV &amp; Recordings, EPG, Timers</description>
     <description lang="en_NZ">Tvheadend frontend; supporting streaming of Live TV &amp; Recordings, EPG, Timers</description>
     <description lang="en_US">Tvheadend frontend; supporting streaming of Live TV &amp; Recordings, EPG, Timers</description>
-    <description lang="es_AR">Interfaz Tvheadend; soporta la reproducción de TV en vivo, grabación, guía de programación, temporizadores</description>
-    <description lang="es_ES">Interfaz Tvheadend; transmisión de TV en directo y grabaciones, EPG, temporizadores</description>
-    <description lang="es_MX">Frontend de Tvheadend; Compatible con la transmisión de TV en directo y Grabaciones, EPG, Temporizadores</description>
+    <description lang="es_AR">Interfaz Tvheadend; soporta la reproducci&#xF3;n de TV en vivo, grabaci&#xF3;n, gu&#xED;a de programaci&#xF3;n, temporizadores</description>
+    <description lang="es_ES">Interfaz Tvheadend; transmisi&#xF3;n de TV en directo y grabaciones, EPG, temporizadores</description>
+    <description lang="es_MX">Frontend de Tvheadend; Compatible con la transmisi&#xF3;n de TV en directo y Grabaciones, EPG, Temporizadores</description>
     <description lang="et_EE">Tvheadend'i liides. Toetab telekanalite striimimist ja salvestamist ning elektroonilist saatekava.</description>
-    <description lang="fi_FI">Tvheadend-käyttöliittymä, joka tukee televisiolähetysten ja tallenteiden suoratoistoa, ohjelmaopasta ja ajastuksia.</description>
-    <description lang="fr_CA">Frontale pour Tvheadend, prenant en charge la diffusion en continu des télés en direct et les enregistrements, le GÉP et les minuteries</description>
-    <description lang="fr_FR">Interface logicielle pour Tvheadend gérant la lecture en continu de la TV en direct et les enregistrements, le guide électronique des programmes TV et les programmations.</description>
-    <description lang="gl_ES">Interface Tvheadend; soporta a transmisión de TV en directo e Gravacións, Guía, temporizadores</description>
-    <description lang="he_IL">לקוח טלוויזיה חיה של Tvheadend. תומך בהזרמת שידורים חיים והקלטות, האזנה לרדיו, הצגת לוח שידורים ותזמון הקלטות.</description>
-    <description lang="hr_HR">Tvheadend sučelje podržava gledanje i snimanje TV programa, elektronski programski vodič (EPG) i zakazano snimanje</description>
-    <description lang="hu_HU">TVHeadend előtét. Élő adások és felvételek támogatása EPG-vel és időzítéssel</description>
+    <description lang="fi_FI">Tvheadend-k&#xE4;ytt&#xF6;liittym&#xE4;, joka tukee televisiol&#xE4;hetysten ja tallenteiden suoratoistoa, ohjelmaopasta ja ajastuksia.</description>
+    <description lang="fr_CA">Frontale pour Tvheadend, prenant en charge la diffusion en continu des t&#xE9;l&#xE9;s en direct et les enregistrements, le G&#xC9;P et les minuteries</description>
+    <description lang="fr_FR">Interface logicielle pour Tvheadend g&#xE9;rant la lecture en continu de la TV en direct et les enregistrements, le guide &#xE9;lectronique des programmes TV et les programmations.</description>
+    <description lang="gl_ES">Interface Tvheadend; soporta a transmisi&#xF3;n de TV en directo e Gravaci&#xF3;ns, Gu&#xED;a, temporizadores</description>
+    <description lang="he_IL">&#x5DC;&#x5E7;&#x5D5;&#x5D7; &#x5D8;&#x5DC;&#x5D5;&#x5D5;&#x5D9;&#x5D6;&#x5D9;&#x5D4; &#x5D7;&#x5D9;&#x5D4; &#x5E9;&#x5DC; Tvheadend. &#x5EA;&#x5D5;&#x5DE;&#x5DA; &#x5D1;&#x5D4;&#x5D6;&#x5E8;&#x5DE;&#x5EA; &#x5E9;&#x5D9;&#x5D3;&#x5D5;&#x5E8;&#x5D9;&#x5DD; &#x5D7;&#x5D9;&#x5D9;&#x5DD; &#x5D5;&#x5D4;&#x5E7;&#x5DC;&#x5D8;&#x5D5;&#x5EA;, &#x5D4;&#x5D0;&#x5D6;&#x5E0;&#x5D4; &#x5DC;&#x5E8;&#x5D3;&#x5D9;&#x5D5;, &#x5D4;&#x5E6;&#x5D2;&#x5EA; &#x5DC;&#x5D5;&#x5D7; &#x5E9;&#x5D9;&#x5D3;&#x5D5;&#x5E8;&#x5D9;&#x5DD; &#x5D5;&#x5EA;&#x5D6;&#x5DE;&#x5D5;&#x5DF; &#x5D4;&#x5E7;&#x5DC;&#x5D8;&#x5D5;&#x5EA;.</description>
+    <description lang="hr_HR">Tvheadend su&#x10D;elje podr&#x17E;ava gledanje i snimanje TV programa, elektronski programski vodi&#x10D; (EPG) i zakazano snimanje</description>
+    <description lang="hu_HU">TVHeadend el&#x151;t&#xE9;t. &#xC9;l&#x151; ad&#xE1;sok &#xE9;s felv&#xE9;telek t&#xE1;mogat&#xE1;sa EPG-vel &#xE9;s id&#x151;z&#xED;t&#xE9;ssel</description>
     <description lang="id_ID">Frontend Tvheadend; mendukung menangkap siaran TV Live &amp; Rekaman, EPG, Timer</description>
-    <description lang="is_IS">Tvheadend framendi; styður streymingu á beinum útsendingum og upptökum, rafrænum sjónvarpsvísum (EGP), tímatökur</description>
+    <description lang="is_IS">Tvheadend framendi; sty&#xF0;ur streymingu &#xE1; beinum &#xFA;tsendingum og uppt&#xF6;kum, rafr&#xE6;num sj&#xF3;nvarpsv&#xED;sum (EGP), t&#xED;mat&#xF6;kur</description>
     <description lang="it_IT">Frontend Tvheadend; supporta lo stream e la registrazione di Live TV, EPG, timer</description>
-    <description lang="ja_JP">TVheadend フロントエンドです。ライブTVストリーミング、録画、EPG、タイマーをサポートしています。</description>
-    <description lang="ko_KR">Tvheadend 프론트엔드; TV 시청 &amp; 녹화, EPG, 타이머 지원</description>
-    <description lang="lt_LT">Tvheadend naudotojo sąsaja; palaiko televizijos transliacijas ir įrašus, EPG, laikmačius</description>
-    <description lang="lv_LV">Tvheadend galasistēma; atbalsta tieštaides TV un ierakstu straumēšanu, EPG, taimerus</description>
-    <description lang="mn_MN">Tvheadend нүүр; Live TV &amp; бичлэг дамжуулалт, EPG, Timer</description>
+    <description lang="ja_JP">TVheadend &#x30D5;&#x30ED;&#x30F3;&#x30C8;&#x30A8;&#x30F3;&#x30C9;&#x3067;&#x3059;&#x3002;&#x30E9;&#x30A4;&#x30D6;TV&#x30B9;&#x30C8;&#x30EA;&#x30FC;&#x30DF;&#x30F3;&#x30B0;&#x3001;&#x9332;&#x753B;&#x3001;EPG&#x3001;&#x30BF;&#x30A4;&#x30DE;&#x30FC;&#x3092;&#x30B5;&#x30DD;&#x30FC;&#x30C8;&#x3057;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;</description>
+    <description lang="ko_KR">Tvheadend &#xD504;&#xB860;&#xD2B8;&#xC5D4;&#xB4DC;; TV &#xC2DC;&#xCCAD; &amp; &#xB179;&#xD654;, EPG, &#xD0C0;&#xC774;&#xBA38; &#xC9C0;&#xC6D0;</description>
+    <description lang="lt_LT">Tvheadend naudotojo s&#x105;saja; palaiko televizijos transliacijas ir &#x12F;ra&#x161;us, EPG, laikma&#x10D;ius</description>
+    <description lang="lv_LV">Tvheadend galasist&#x113;ma; atbalsta tie&#x161;taides TV un ierakstu straum&#x113;&#x161;anu, EPG, taimerus</description>
+    <description lang="mn_MN">Tvheadend &#x43D;&#x4AF;&#x4AF;&#x440;; Live TV &amp; &#x431;&#x438;&#x447;&#x43B;&#x44D;&#x433; &#x434;&#x430;&#x43C;&#x436;&#x443;&#x443;&#x43B;&#x430;&#x43B;&#x442;, EPG, Timer</description>
     <description lang="ms_MY">Bahagian hadapan Tvheadend; menyokong penstriman Langsung &amp; Rakaman, EPG, Pemasa TV</description>
-    <description lang="mt_MT">Faċċata ta' TVheadend; jiflaħ għal streaming ta' TV Lajv u rekordings, EPG, Arloġġi</description>
-    <description lang="nb_NO">Tvheadend-grenseflate; støtte for visning av direkte-TV og opptak, EPG, tidsur</description>
+    <description lang="mt_MT">Fa&#x10B;&#x10B;ata ta' TVheadend; jifla&#x127; g&#x127;al streaming ta' TV Lajv u rekordings, EPG, Arlo&#x121;&#x121;i</description>
+    <description lang="nb_NO">Tvheadend-grenseflate; st&#xF8;tte for visning av direkte-TV og opptak, EPG, tidsur</description>
     <description lang="nl_NL">Tvheadend frontend. Ondersteuning van streaming, Live-TV &amp; opnames, EPG, Timers</description>
-    <description lang="pl_PL">Klient telewizji dla Tvheadend obsługuje transmisję kanałów radiowych i telewizyjnych, nagrywanie i harmonogram nagrań oraz funkcje przewodnika telewizyjnego</description>
+    <description lang="pl_PL">Klient telewizji dla Tvheadend obs&#x142;uguje transmisj&#x119; kana&#x142;&#xF3;w radiowych i telewizyjnych, nagrywanie i harmonogram nagra&#x144; oraz funkcje przewodnika telewizyjnego</description>
     <description lang="pt_BR">Tvheadend; suporta streaming de TV Ao Vivo e Gravada, EPG, Agendamentos</description>
-    <description lang="pt_PT">Interface Tvheadend. Suporta transmissão e gravação de TV em direto, EPG e temporizadores.</description>
-    <description lang="ro_RO">Partea din față pentru Tvheadend; suportă difuzarea în flux a televiziunii în direct și a înregistrăriilor, EPG, Cronometre</description>
-    <description lang="ru_RU">Интерфейс для Tvheadend. Поддерживает просмотр и запись ТВ, EPG и таймеры</description>
-    <description lang="sk_SK">Rozhranie pre Tvheadend; je podporované streamovanie živého televízneho vysielania a nahrávok, EPG, časovačov</description>
-    <description lang="sl_SI">Vmesnik za Tvheadend; podpira pretakanje televizije v živo &amp; posnetkov, EPG, časovnike</description>
-    <description lang="sq_AL">Tvheadend frotnend përkrahën transmetimin e Live TV'së, EPG'së dhe "timer'ë"</description>
-    <description lang="sr_RS">Tvheadend интерфејс; подржава стримовање ТВ Уживо &amp; Снимака, EPG, Тајмере</description>
-    <description lang="sr_RS@latin">Tvheadend interfejs; podržava strimovanje TV Uživo &amp; Snimaka, EPG, Tajmere</description>
-    <description lang="sv_SE">Tvheadend frontend; stödjer strömning av Live-TV &amp; inspelningar, EPG, Timers</description>
-    <description lang="szl">Frontend Tvheadend; podpiyrŏ strumiyniowaniy TV, nagrań, EPG i minutnikōw</description>
-    <description lang="te_IN">Tvheadend ఫ్రంటెండ్; Live TV &amp; రికార్డింగ్స్, EPG, టైమర్లు , స్ట్రీమింగ్ మద్దతు కలదు</description>
-    <description lang="tg_TJ">Интерфейси Tvheadend; дастгирии ҷараёни Сабтҳо, Вақтсанҷҳо, Live TV ва EPG</description>
-    <description lang="tr_TR">Tvheadend ön ucu; Canlı TV akışı ve kayıt yapabilme, EPG ve zamanlayıcıları destekler</description>
-    <description lang="uk_UA">Інтерфейс для Tvheadend; підтримує передачу і запис потокового телебачення, EPG (телегід) і таймери.</description>
-    <description lang="vi_VN">Giao tiếp cho Tvheadend; hỗ trợ truyền phát và thu chương trình Live TV, hẹn giờ, và hiển thị lịch chiếu (EPG)</description>
-    <description lang="zh_CN">Tvheadend 前端，支持直播电视和录像流媒体、电子节目单、定时器</description>
-    <description lang="zh_TW">Tvheadend前端，支援的串流媒體包含有直播電視和錄製節目，電子節目表，定時器 等</description>
+    <description lang="pt_PT">Interface Tvheadend. Suporta transmiss&#xE3;o e grava&#xE7;&#xE3;o de TV em direto, EPG e temporizadores.</description>
+    <description lang="ro_RO">Partea din fa&#x21B;&#x103; pentru Tvheadend; suport&#x103; difuzarea &#xEE;n flux a televiziunii &#xEE;n direct &#x219;i a &#xEE;nregistr&#x103;riilor, EPG, Cronometre</description>
+    <description lang="ru_RU">&#x418;&#x43D;&#x442;&#x435;&#x440;&#x444;&#x435;&#x439;&#x441; &#x434;&#x43B;&#x44F; Tvheadend. &#x41F;&#x43E;&#x434;&#x434;&#x435;&#x440;&#x436;&#x438;&#x432;&#x430;&#x435;&#x442; &#x43F;&#x440;&#x43E;&#x441;&#x43C;&#x43E;&#x442;&#x440; &#x438; &#x437;&#x430;&#x43F;&#x438;&#x441;&#x44C; &#x422;&#x412;, EPG &#x438; &#x442;&#x430;&#x439;&#x43C;&#x435;&#x440;&#x44B;</description>
+    <description lang="sk_SK">Rozhranie pre Tvheadend; je podporovan&#xE9; streamovanie &#x17E;iv&#xE9;ho telev&#xED;zneho vysielania a nahr&#xE1;vok, EPG, &#x10D;asova&#x10D;ov</description>
+    <description lang="sl_SI">Vmesnik za Tvheadend; podpira pretakanje televizije v &#x17E;ivo &amp; posnetkov, EPG, &#x10D;asovnike</description>
+    <description lang="sq_AL">Tvheadend frotnend p&#xEB;rkrah&#xEB;n transmetimin e Live TV's&#xEB;, EPG's&#xEB; dhe "timer'&#xEB;"</description>
+    <description lang="sr_RS">Tvheadend &#x438;&#x43D;&#x442;&#x435;&#x440;&#x444;&#x435;&#x458;&#x441;; &#x43F;&#x43E;&#x434;&#x440;&#x436;&#x430;&#x432;&#x430; &#x441;&#x442;&#x440;&#x438;&#x43C;&#x43E;&#x432;&#x430;&#x45A;&#x435; &#x422;&#x412; &#x423;&#x436;&#x438;&#x432;&#x43E; &amp; &#x421;&#x43D;&#x438;&#x43C;&#x430;&#x43A;&#x430;, EPG, &#x422;&#x430;&#x458;&#x43C;&#x435;&#x440;&#x435;</description>
+    <description lang="sr_RS@latin">Tvheadend interfejs; podr&#x17E;ava strimovanje TV U&#x17E;ivo &amp; Snimaka, EPG, Tajmere</description>
+    <description lang="sv_SE">Tvheadend frontend; st&#xF6;djer str&#xF6;mning av Live-TV &amp; inspelningar, EPG, Timers</description>
+    <description lang="szl">Frontend Tvheadend; podpiyr&#x14F; strumiyniowaniy TV, nagra&#x144;, EPG i minutnik&#x14D;w</description>
+    <description lang="te_IN">Tvheadend &#xC2B;&#xC4D;&#xC30;&#xC02;&#xC1F;&#xC46;&#xC02;&#xC21;&#xC4D;; Live TV &amp; &#xC30;&#xC3F;&#xC15;&#xC3E;&#xC30;&#xC4D;&#xC21;&#xC3F;&#xC02;&#xC17;&#xC4D;&#xC38;&#xC4D;, EPG, &#xC1F;&#xC46;&#xC56;&#xC2E;&#xC30;&#xC4D;&#xC32;&#xC41; , &#xC38;&#xC4D;&#xC1F;&#xC4D;&#xC30;&#xC40;&#xC2E;&#xC3F;&#xC02;&#xC17;&#xC4D; &#xC2E;&#xC26;&#xC4D;&#xC26;&#xC24;&#xC41; &#xC15;&#xC32;&#xC26;&#xC41;</description>
+    <description lang="tg_TJ">&#x418;&#x43D;&#x442;&#x435;&#x440;&#x444;&#x435;&#x439;&#x441;&#x438; Tvheadend; &#x434;&#x430;&#x441;&#x442;&#x433;&#x438;&#x440;&#x438;&#x438; &#x4B7;&#x430;&#x440;&#x430;&#x451;&#x43D;&#x438; &#x421;&#x430;&#x431;&#x442;&#x4B3;&#x43E;, &#x412;&#x430;&#x49B;&#x442;&#x441;&#x430;&#x43D;&#x4B7;&#x4B3;&#x43E;, Live TV &#x432;&#x430; EPG</description>
+    <description lang="tr_TR">Tvheadend &#xF6;n ucu; Canl&#x131; TV ak&#x131;&#x15F;&#x131; ve kay&#x131;t yapabilme, EPG ve zamanlay&#x131;c&#x131;lar&#x131; destekler</description>
+    <description lang="uk_UA">&#x406;&#x43D;&#x442;&#x435;&#x440;&#x444;&#x435;&#x439;&#x441; &#x434;&#x43B;&#x44F; Tvheadend; &#x43F;&#x456;&#x434;&#x442;&#x440;&#x438;&#x43C;&#x443;&#x454; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x447;&#x443; &#x456; &#x437;&#x430;&#x43F;&#x438;&#x441; &#x43F;&#x43E;&#x442;&#x43E;&#x43A;&#x43E;&#x432;&#x43E;&#x433;&#x43E; &#x442;&#x435;&#x43B;&#x435;&#x431;&#x430;&#x447;&#x435;&#x43D;&#x43D;&#x44F;, EPG (&#x442;&#x435;&#x43B;&#x435;&#x433;&#x456;&#x434;) &#x456; &#x442;&#x430;&#x439;&#x43C;&#x435;&#x440;&#x438;.</description>
+    <description lang="vi_VN">Giao ti&#x1EBF;p cho Tvheadend; h&#x1ED7; tr&#x1EE3; truy&#x1EC1;n ph&#xE1;t v&#xE0; thu ch&#x1B0;&#x1A1;ng tr&#xEC;nh Live TV, h&#x1EB9;n gi&#x1EDD;, v&#xE0; hi&#x1EC3;n th&#x1ECB; l&#x1ECB;ch chi&#x1EBF;u (EPG)</description>
+    <description lang="zh_CN">Tvheadend &#x524D;&#x7AEF;&#xFF0C;&#x652F;&#x6301;&#x76F4;&#x64AD;&#x7535;&#x89C6;&#x548C;&#x5F55;&#x50CF;&#x6D41;&#x5A92;&#x4F53;&#x3001;&#x7535;&#x5B50;&#x8282;&#x76EE;&#x5355;&#x3001;&#x5B9A;&#x65F6;&#x5668;</description>
+    <description lang="zh_TW">Tvheadend&#x524D;&#x7AEF;&#xFF0C;&#x652F;&#x63F4;&#x7684;&#x4E32;&#x6D41;&#x5A92;&#x9AD4;&#x5305;&#x542B;&#x6709;&#x76F4;&#x64AD;&#x96FB;&#x8996;&#x548C;&#x9304;&#x88FD;&#x7BC0;&#x76EE;&#xFF0C;&#x96FB;&#x5B50;&#x7BC0;&#x76EE;&#x8868;&#xFF0C;&#x5B9A;&#x6642;&#x5668; &#x7B49;</description>
   </extension>
 </addon>
